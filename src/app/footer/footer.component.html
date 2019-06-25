@@ -1,0 +1,58 @@
+<div class="section background-dark">
+  <div class="wrapper">
+    <div class="row">
+      <div class="col-2 lg-4 sm-12 margin-bottom"><img src="../../assets/images/logo-light.svg" width="104" alt="" class="margin-bottom">
+        <p class="paragraph-small ondark">From empowering challenger brands to think big to helping global brands feel closer to home, we leverage technology to bring people closer to the products, content, and experiences they love.</p>
+        <div class="w-hidden-small w-hidden-tiny">
+          <div class="negative-margin">
+            <a target="_blank" href="#" class="social-media-link w-inline-block">
+              <div class="fa-icon ondark"></div>
+            </a><a target="_blank" href="#" class="footer-link-2 w-inline-block"></a><a target="_blank" href="#" class="footer-link-2 w-inline-block"></a><a target="_blank" href="#" class="footer-link-2 w-inline-block"></a><a target="_blank" href="#" class="footer-link-2 w-inline-block"></a><a target="_blank" href="#" class="footer-link-2 w-inline-block"></a>
+            <a target="_blank" href="#" class="social-media-link w-inline-block">
+              <div class="fa-icon ondark"></div>
+            </a>
+            <a target="_blank" href="#" class="social-media-link w-inline-block">
+              <div class="fa-icon ondark"></div>
+            </a>
+            <a target="_blank" href="#" class="social-media-link w-inline-block">
+              <div class="fa-icon ondark"></div>
+            </a>
+            <a target="_blank" href="#" class="social-media-link w-inline-block">
+              <div class="fa-icon ondark"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 lg-4 sm-12 flex-space-around padding-32">
+        <div class="footer-links-container">
+          <h5 class="footer-heading"><a href="#" class="no-underline">Our Work</a></h5><a href="#" class="footer-link-2 ondark">Portfolio</a><a href="#" class="footer-link-2 ondark">Contact us</a><a href="#" class="footer-link-2 ondark">Careers</a></div>
+        <div class="footer-links-container">
+          <h5 class="footer-heading"><a href="#" class="no-underline">Company</a></h5><a href="#" class="footer-link-2 ondark">About Us</a><a href="#" class="footer-link-2 ondark">Our Team</a><a href="#" class="footer-link-2 ondark">Blog</a><a href="#" class="footer-link-2 ondark">FAQs</a></div>
+        <div class="footer-links-container">
+          <h5 class="footer-heading"><a href="#" class="no-underline">Business</a></h5><a href="#" class="footer-link-2 ondark">Clients</a><a href="#" class="footer-link-2 ondark">Team</a><a href="#" class="footer-link-2 ondark">Offices</a><a href="#" class="footer-link-2 ondark">Careers</a></div>
+      </div>
+      <div class="col-2 lg-4 flex-stretch sm-2">
+        <div class="subscription">
+          <div class="form no-bottom-margins w-form">
+                <form name="ngForm" class="form-with-button inline-form">
+                    <div class="form-group">
+                      
+                      <input ngModel name="sEmail" #sEmail="ngModel" id="sEmail" type="email" email class="form-field no-bottom-margins w-input form-control" maxlength="256"  placeholder="Email"  required>
+                      <div class="alert alert-danger" *ngIf="sEmail.touched && sEmail.errors?.email">Email is not valid!</div>
+                    </div>
+                   <button class="button form-button w-button" (click)=submit(sEmail)>Subscribe</button> 
+                </form>
+             
+            
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
