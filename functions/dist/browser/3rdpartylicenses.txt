@@ -275,13 +275,13 @@ MIT
 @angular/router
 MIT
 
+@angular/forms
+MIT
+
 @nguniversal/common
 MIT
 
 @ng-toolkit/universal
-MIT
-
-@angular/forms
 MIT
 
 zone.js
