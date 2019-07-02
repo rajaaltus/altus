@@ -11,9 +11,7 @@ import { NgtUniversalModule } from '@ng-toolkit/universal';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { AboutComponent } from './home/about/about.component';
-import { CareerComponent } from './home/career/career.component';
-import { ContactComponent } from './home/contact/contact.component';
+
 
 @NgModule({
   declarations: [
@@ -21,9 +19,6 @@ import { ContactComponent } from './home/contact/contact.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    AboutComponent,
-    CareerComponent,
-    ContactComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
