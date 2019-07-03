@@ -780,6 +780,12 @@ textarea.w-select {
 .w-widget-twitter {
   overflow: hidden;
 }
+.posting {
+  background-image: url(../images/fluid-p-500.png);
+  background-attachment: fixed;
+  min-height: 300px;
+  background-repeat: no-repeat;
+}
 .w-widget-twitter-count-shim {
   display: inline-block;
   vertical-align: top;
