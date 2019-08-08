@@ -1282,7 +1282,7 @@ var LAZY_MODULE_MAP = { "./home/about/about.module#AboutModule": _app_home_about
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/rajas/Projects/serverlessAPp/src/main.server.ts */"./src/main.server.ts");
+module.exports = __webpack_require__(/*! /Users/raja/Projects/altus/src/main.server.ts */"./src/main.server.ts");
 
 
 /***/ }),
